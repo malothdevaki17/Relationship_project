@@ -58,7 +58,7 @@ Developed an **Artificial Neural Network (ANN)**:
 ---
 
 ## 🧪 6. Inference with Streamlit
-The app (Code_File.py) is built using **Streamlit**:
+The app (app.py) is built using **Streamlit**:
 - Accepts user inputs through a form
 - Uses the trained model to predict compatibility
 - Displays results in real-time
@@ -68,14 +68,14 @@ The app (Code_File.py) is built using **Streamlit**:
 ## ✅ How to Run
 
 1. Clone the repository
-https://github.com/Anuchikkamath/Relationship_Predictor.git
-cd Relationship_Predictor
+   https://github.com/malothdevaki17/Relationship_project.git
+cd Relationship_Project
 
 3. Install required packages  
 pip install -r requirements.txt
 
 4. Start the Streamlit app  
-streamlit run Code_File.py
+streamlit run app.py
 
 ---
 
@@ -89,10 +89,9 @@ streamlit run Code_File.py
 
 ## 📁 Repository Structure
 
-Relationship_Predictor/
+Relationship_Project/
 
-├── Code_File.py                         # Streamlit app for predictions  
-├── best_model.keras                     # Trained Keras model  
+├── app.py                         # Streamlit app for predictions                   
 ├── Assessment - Form Responses.csv      # Survey response dataset  
 ├── requirements.txt                     # Python dependencies  
 └── README.md                            # Project overview
